@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* CODICE NAVBAR */
+/* CODICE NAVBAR */
+/* CODICE NAVBAR */
+/* CODICE NAVBAR */
+/* CODICE NAVBAR */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    padding: 15px 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    height: 110px;
+    margin: 0px;
+    width: auto;
+    background-color: #1b1b1b;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #1b1b1b;
+    font-size: 25px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* INTRODUZIONE DA CAMBIARE */
+/* INTRODUZIONE DA CAMBIARE */
+/* INTRODUZIONE DA CAMBIARE */
+/* INTRODUZIONE DA CAMBIARE */
+/* INTRODUZIONE DA CAMBIARE */
+.introduzione a{
+    background-color: rgb(126, 133, 133);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.introduzione{
+    font-size: 20px;
+    margin: 40px;
+}
+
+
+
+
+
+/* PAGINA BLOG */
+/* PAGINA BLOG */
+/* PAGINA BLOG */
+/* PAGINA BLOG */
+/* PAGINA BLOG */
+h2{
+    font-size: 40px;
+    margin: 40px 0 0 40px;
+}
+
+.argomento ul{ 
+    list-style: none;
+    padding: 0;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.scheda {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(69, 69, 69); /* COLERE SCHEDE */
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.scheda:first-child{
+    margin-left: 40px;
+}
+
+.scheda img{
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px 20px 0 20px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 10px 20px
+}
+
+.scheda p{
+    margin: 0;
+    max-height: 120px;
+    overflow: scroll;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    margin: 0 20px 50px 20px;
+}
+
+.scheda a, header a, .abbonati.btn{
+    background-color: rgb(126, 133, 133);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn:hover, form button:hover{
+    background-color: #646464;
+}
+
+
+
+
+
+/* SCHEDA CONTENUTI ESCUSIVI */
+/* SCHEDA CONTENUTI ESCUSIVI */
+/* SCHEDA CONTENUTI ESCUSIVI */
+/* SCHEDA CONTENUTI ESCUSIVI */
+/* SCHEDA CONTENUTI ESCUSIVI */
+.scheda.abbonati {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 140, 0, 0.2)); 
+    border: 3px;
+    border-style: dashed;
+    border-color: rgb(255, 215, 0);;
+}
+
+.scheda.abbonati h3 {
+    font-size: 28px;
+    color: #FFD700; 
+}
+
+.scheda.abbonati p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* SCHEDA LAVORI IN CORSO */
+/* SCHEDA LAVORI IN CORSO */
+/* SCHEDA LAVORI IN CORSO */
+/* SCHEDA LAVORI IN CORSO */
+/* SCHEDA LAVORI IN CORSO */
+
+.scheda.lavori {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 165, 0, 0.3), rgba(255, 69, 0, 0.2)); 
+    border: 3px;
+    border-style: dashed;
+    border-color: rgb(255, 165, 0);;
+}
+
+.scheda.lavori h3 {
+    font-size: 28px;
+    color: #FFA500;
+}
+
+.scheda.lavori p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+    
+
+
+
+
+/* PAGINA ABBONATI */
+/* PAGINA ABBONATI */
+/* PAGINA ABBONATI */
+/* PAGINA ABBONATI */
+/* PAGINA ABBONATI */
+.abbonati-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.abbonati-intro {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.abbonamenti-tabella {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+.abbonamenti-tabella th, .abbonamenti-tabella td {
+    border: 1px solid #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.abbonamenti-tabella th {
+    background-color: #222;
+    font-size: 22px;
+}
+
+.abbonamenti-tabella td {
+    font-size: 18px;
+}
+
+
+
+
+
+/* PAGINA CONTATTACI */
+/* PAGINA CONTATTACI */
+/* PAGINA CONTATTACI */
+/* PAGINA CONTATTACI */
+/* PAGINA CONTATTACI */
+.contattaci-container {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.contattaci-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contattaci-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+form button {
+    background-color: rgb(133, 133, 133);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.info {
+    margin-top: 20px;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin: 10px 0;
+}
+
+.info a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.creature-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.creature-list li {
+    background: #222;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+.creature-list li:hover {
+    transform: scale(1.1);
+}
+.creature-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* PAGINA CHI SIAMO */
+/* PAGINA CHI SIAMO */
+/* PAGINA CHI SIAMO */
+/* PAGINA CHI SIAMO */
+/* PAGINA CHI SIAMO */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.timeline .event {
+    display: flex;
+    align-items: center;
+    background: #222;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: transform 0.3s;
+}
+.event:hover {
+    transform: scale(1.1);
+}
+.time {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #f39c12;
+}

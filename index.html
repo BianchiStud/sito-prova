@@ -3,40 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Primo Sito Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f9;
-            color: #333;
-            margin-top: 50px;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            display: inline-block;
-        }
-        h1 {
-            color: #24292e;
-        }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+    <title>La falla nel Systema</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="foto/icona.png">
 </head>
-<body>
+    <body>
 
-    <div class="container">
-        <h1>Ciao, Mondo! 🚀</h1>
-        <p>Questo è il mio primo sito statico di prova.</p>
-        <p>Lo sto usando per imparare a usare <strong>GitHub</strong> e l'hosting gratuito.</p>
-        <p>Visita il mio profilo <a href="https://github.com" target="_blank">GitHub</a></p>
+        <header>
+                <a href="index.html" class="logo">
+                    <img src="foto/logo.png" alt="Logo" class="logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="chi-siamo.html">Chi Siamo</a></li>
+                    <li><a href="abbonati.html">Abbonati</a></li>
+                    <li><a href="contattaci.html">Contattaci</a></li>
+                </ul>
+        </header>
+
+        <div class="introduzione">
+            <p> 
+                Benvenuti nel nostro blog! Quanti di voi sono curiosi su argomenti come l' ufologia,
+                sperimentazioni segrete dei governi, misteri delle antiche civiltà, criptozoologia e sette occulte ?
+                Noi siamo qui per informarvi di questi argomenti che non sono cose da tutti i giorni!
+                Bene se siete impazienti e morite dalla voglia di scoprire nuove cose, allora avventuratevi nel nostro sito! 
+            </p>
+            <a href="chi-siamo.html" class="btn">Scopri di più sulla nostra storia</a>
+        </div>
+
+        
+
+
+        <!-- UFOLOGIA -->
+        <div class="argomento ufologia">
+            <h2>Ufologia</h2>
+            <ul>
+                <li class="scheda">
+                    <img src="foto/ufo1.webp" alt="errore nel caricamento delle foto">
+                    <h3>Comparsa ufo</h3>
+                    <p class="anteprima">
+                        Da misteriosi avvistamenti nei cieli notturni a segreti nascosti dai governi, il fenomeno UFO ha sempre affascinato e spaventato. Gli avvistamenti sono reali? Chi o cosa si cela dietro questi oggetti volanti non identificati? Unisciti a noi in questo viaggio tra prove, testimonianze e teorie che potrebbero cambiare per sempre la tua visione del mondo. Scopri di più e apri gli occhi sulla verità!"
+                    </p>
+                    <a href="https://nuforc.org/" target="_blank" class="btn">Scopri di più</a>
+                </li>
+                <li class="scheda">
+                    <img src="foto/ufo2.jpeg" alt="errore nel caricamento delle foto">
+                    <h3>Ufo in America</h3>
+                    <p class="anteprima">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit, fugiat porro recusandae, libero tempora deleniti natus mollitia fugit eligendi fuga quia cupiditate doloremque esse provident consequatur minima! Nulla, tempore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi aliquam modi dolores architecto labore beatae sunt itaque explicabo? Optio, eligendi vero aut quis neque excepturi sed nemo ab mollitia dicta.
+                    </p>
+                    <a href="https://ufoevidence.org" target="_blank" class="btn">Scopri di più</a>
+                </li>
+                
+                <li class="scheda abbonati">
+                    <h3>🔒 Contenuto Esclusivo</h3>
+                    <p>Solo gli utenti abbonati possono accedere a questa sezione speciale. Scopri i segreti più nascosti e le teorie più incredibili!</p>
+                    <a href="abbonati.html" class="btn">Abbonati Ora 🔑</a>    
+                </li>
+                
+                
+            </ul>
+        </div>
+
+
+
+        <!-- TEORIE COMPLOTTISTICHE -->
+        <div class="argomento teorie">
+            <h2>Teorie Complottistiche</h2>
+            <ul>
+                <li class="scheda">
+                    <img src="foto/terrapiatta.jpeg" alt="Teoria della Terra Piatta">
+                    <h3>La Terra è davvero piatta?</h3>
+                    <p class="anteprima">Da secoli si dibatte sulla vera forma della Terra. Alcuni sostengono che sia piatta e che ci sia una grande cospirazione per nascondere la verità. Esplora le prove, le teorie e le risposte scientifiche a questa affascinante controversia.</p>
+                    <a href="https://mysteriousuniverse.org/]" target="_blank" class="btn">Scopri di più</a>
+                </li>
+                <li class="scheda">
+                    <img src="foto/teorie.jpeg" alt="Controllo Mentale">
+                    <h3>Il Controllo Mentale del Governo</h3>
+                    <p class="anteprima">Si dice che esperimenti segreti vengano condotti per manipolare il pensiero umano attraverso onde radio, farmaci e tecnologia avanzata. Qual è il confine tra verità e paranoia? Scopri le teorie dietro uno dei più grandi timori della società moderna.</p>
+                    <a href="https://www.anomalist.com/]" target="_blank" class="btn">Scopri di più</a>
+                </li>
+                <li class="scheda abbonati">
+                    <h3>🔒 Contenuto Esclusivo</h3>
+                    <p>Solo gli utenti abbonati possono accedere a questa sezione speciale. Scopri i segreti più nascosti e le teorie più incredibili!</p>
+                    <a href="abbonati.html" class="btn">Abbonati Ora 🔑</a>    
+                </li>
+            </ul>
+        </div>
+
+
+
+    <!-- SPERIMENTAZIONI SEGRETE DEI GOVERNI -->
+    <div class="argomento governi">
+        <h2>Sperimentazioni segrete dei governi</h2>
+        <ul>
+            <li class="scheda">
+                <img src="foto/esperimenti.jpeg" alt="Esperimenti militari">
+                <h3>Esperimenti Militari</h3>
+                <p class="anteprima">Quali sono i progetti segreti sui test biologici e armi sperimentali?</p>
+                <a href="theblackvault.com" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            <li class="scheda">
+                <img src="foto/mk.jpeg" alt="MK-Ultra e il controllo mentale">
+                <h3>MK-Ultra e il Controllo Mentale</h3>
+                <p class="anteprima">Scopri le inquietanti verità dietro gli esperimenti sulla mente umana.</p>
+                <a href="https://it.wikipedia.org/wiki/Project_MKUltra" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            <li class="scheda lavori">
+                <h3>🚧 Lavori in Corso</h3>
+                <p>Stiamo preparando qualcosa di speciale per te! Torna presto per scoprire le novità.
+                <br>Abbonati al livello maestro per leggere l'articolo in anteprima </p>
+                <a href="abbonati.html" class="btn">Abbonati Ora 🔑</a>
+            </li>
+        </ul>
     </div>
 
-</body>
+
+
+
+    <!-- SETTE OCCULTE -->
+    <div class="argomento sette-occulte">
+        <h2>Sette Occulte</h2>
+        <ul>
+            <li class="scheda">
+                <img src="foto/societa.jpeg" alt="Società Segrete">
+                <h3>Società Segrete</h3>
+                <p class="anteprima">Dagli Illuminati alla Massoneria: chi tira le fila del potere nell'ombra?</p>
+                <a href="https://www.religioustolerance.org/cults.htm" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            <li class="scheda">
+                <img src="foto/rituali.webp" alt="Rituali Misteriosi">
+                <h3>Rituali Misteriosi</h3>
+                <p class="anteprima">Scopri i rituali e le pratiche segrete delle sette più oscure della storia.</p>
+                <a href="https://culteducation.com/" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            <li class="scheda lavori">
+                <h3>🚧 Lavori in Corso</h3>
+                <p>Stiamo preparando qualcosa di speciale per te! Torna presto per scoprire le novità.
+                <br>Abbonati al livello maestro per leggere l'articolo in anteprima </p>
+                <a href="abbonati.html" class="btn">Abbonati Ora 🔑</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- CRIPTOZOOLOGIA -->
+    <div class="argomento criptozoologia">
+        <h2>Criptozoologia</h2>
+        <ul>
+            <li class="scheda">
+                <img src="foto/chupa.webp" alt="Il Chupacabra">
+                <h3>Il Chupacabra</h3>
+                <p class="anteprima">Dai Bigfoot al Chupacabra, esploriamo le creature misteriose.</p>
+                <a href="https://nonciclopedia.org/wiki/Chupacabra" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            <li class="scheda">
+                <img src="foto/lochness.jpeg" alt="Il Mostro di Loch Ness">
+                <h3>Il Mostro di Loch Ness</h3>
+                <p class="anteprima">Analizziamo le prove fotografiche e i racconti sulla creatura più famosa della Scozia.</p>
+                <a href="https://www.visitscotland.com/it-it/places-to-go/loch-ness/things-to-do/nessie" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <!-- MISTERI DELLE ANTICHE CIVILTÀ -->
+    <div class="argomento antiche-civilta">
+        <h2>Misteri delle Antiche Civiltà</h2>
+        <ul>
+            <li class="scheda">
+                <img src="foto/piramidi.jpeg" alt="Piramidi e Conoscenze Perdute">
+                <h3>Piramidi e conoscenze perdute</h3>
+                <p class="anteprima">Esploriamo le teorie sulle civiltà scomparse e le loro incredibili costruzioni.</p>
+                <a href="https://www.ancient-origins.net/" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            <li class="scheda">
+                <img src="foto/astronauti.jpeg" alt="Antichi astronauti">
+                <h3>Teoria degli Antichi Astronauti</h3>
+                <p class="anteprima">Le divinità delle antiche civiltà erano extraterrestri? Un viaggio tra miti e scoperte archeologiche.</p>
+                <a href="https://www.gaia.com/" target="_blank" class="btn">Scopri di più</a>
+            </li>
+            
+        </ul>
+    </div>
+
+    
+
+        
+    <!-- TOP TEN INCONTRI CON STRANE CREATURE -->
+    <h2 style="text-align: center; color: white; margin-top: 30px;">Top 10 Creature Misteriose</h2>
+    <ul class="creature-list">
+        <a href="https://it.wikipedia.org/wiki/Bigfoot">
+            <li>
+                <p><b>Bigfoot</b><br>La leggenda delle foreste americane</p>
+            </li>
+        </a>
+        
+        <a href="https://it.wikipedia.org/wiki/Chupacabra">
+            <li>
+                <p><b>Chupacabra</b><br>Il terrore degli allevatori</p>
+            </li>
+        </a>
+
+        <a href="https://it.wikipedia.org/wiki/Mothman">
+            <li>
+                <p><b>Mothman</b><br>Il presagio di sventura</p>
+            </li>
+        </a>
+
+        <a href="https://cryptidz.fandom.com/wiki/Ningen">
+            <li>
+                <p><b>Ningen</b><br>L'essere gigante dell'Antartide</p>
+            </li>
+        </a>
+
+        <a href="https://it.wikipedia.org/wiki/Jersey_Devil">
+            <li>
+                <p><b>Jersey Devil</b><br>Il demone del New Jersey</p>
+            </li>
+        </a>
+
+        <a href="https://it.wikipedia.org/wiki/Flatwoods_Monster">
+            <li>
+                <p><b>Flatwoods Monster</b><br>L'alieno della Virginia Occidentale</p>
+            </li>
+        </a>
+
+        <a href="https://cryptidz.fandom.com/wiki/Dover_Demon">
+            <li>
+                <p><b>Dover Demon</b><br>L'inquietante creatura del Massachusetts</p>
+            </li>
+        </a>
+
+        <a href="https://cryptidz.fandom.com/wiki/Lizard_Man_of_Scape_Ore_Swamp">
+            <li>
+                <p><b>Lizard Man</b><br>La creatura rettiliana della Carolina del Sud</p>
+            </li>
+        </a>
+
+        <a href="https://cryptidz.fandom.com/wiki/Skunk_Ape">
+            <li>
+                <p><b>Skunk Ape</b><br>Il parente maleodorante di Bigfoot</p>
+            </li>
+        </a>
+
+        <a href="https://cryptidz.fandom.com/wiki/The_Rake">
+            <li>
+                <p><b>The Rake</b><br>L'ombra terrificante della notte</p>
+            </li>
+        </a>
+    </ul>
+
+    
+
+
+            
+        
+    </body>
 </html>
